@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "328167642011",
+    "project_id": "myaiapp-f7f51",
+    "storage_bucket": "myaiapp-f7f51.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:328167642011:android:f7c155dddceaf97ee7c73e",
+        "android_client_info": {
+          "package_name": "com.example.fraga"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8dLIV6beOdWhWqyz41Z3sjr_s3r2xmX4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
