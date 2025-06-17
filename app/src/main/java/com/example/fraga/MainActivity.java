@@ -95,9 +95,9 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {
+                            getUser();
                             Toast.makeText(MainActivity.this, "login successfully", Toast.LENGTH_SHORT).show();
                             Navigation.findNavController(view).navigate(R.id.action_fragment1_to_fragment2);
-                            getUserStr();
                         } else {
                             Toast.makeText(MainActivity.this, "login failed", Toast.LENGTH_SHORT).show();
                         }
@@ -105,7 +105,7 @@ public class MainActivity extends AppCompatActivity {
                 });
     }
 
-    public void getUserStr () {
+    public void getUser () {
         FirebaseUser user = mAuth.getCurrentUser();
         String uid = user.getUid();
         DatabaseReference ref = FirebaseDatabase.getInstance().getReference("users").child(uid);

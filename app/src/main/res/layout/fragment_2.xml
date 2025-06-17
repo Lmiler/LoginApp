@@ -23,7 +23,7 @@
                 android:layout_weight="1"
                 android:background="#EFE4E4"
                 android:gravity="center"
-                android:text="Hello!"
+                android:text=""
                 android:textColor="#020202" />
         </LinearLayout>
 

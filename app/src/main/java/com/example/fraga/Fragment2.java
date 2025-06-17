@@ -68,9 +68,7 @@ public class Fragment2 extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_2, container, false);
         MainActivity mainActivity = (MainActivity) getActivity();
-        TextView userStr = view.findViewById(R.id.textView7);
         assert mainActivity != null;
-        userStr.setText(mainActivity.person.getPersonStr());
         Button send = view.findViewById(R.id.button4);
         send.setOnClickListener(new View.OnClickListener() {
             @Override
